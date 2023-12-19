@@ -9,7 +9,6 @@ The Superban Laravel Package provides rate limiting and banning features for API
   - [Tests](#tests)
 - [Contributing](#contributing)
 - [Security](#security)
-- [License](#license)
 
 ## Installation
 To install the package via composer, run:
