@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5bb836e4d66cd1bb34ed91f72080d8ba",
+    "content-hash": "217b3bae7cec757a76b0696058298b4a",
     "packages": [
         {
             "name": "brick/math",
@@ -433,6 +433,38 @@
                 }
             ],
             "time": "2023-08-10T19:36:49+00:00"
+        },
+        {
+            "name": "edenlife/superban",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "packages/edenlife/superban",
+                "reference": "c17fa86796647c70f02ce4b449b1ac5100076ef5"
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EdenLife\\Superban\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Precious Ani",
+                    "email": "anipreciousebuka@gmail.com"
+                }
+            ],
+            "description": "Description of your package",
+            "keywords": [
+                "laravel",
+                "package"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "egulias/email-validator",
@@ -8149,7 +8181,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "edenlife/superban": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

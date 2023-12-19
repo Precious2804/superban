@@ -10,9 +10,11 @@ class SuperbanServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/config/superban.php', 'superban'
+            __DIR__ . '/../config/superban.php',
+            'superban'
         );
     }
+
 
     public function boot()
     {
