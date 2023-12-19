@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70cecd57f00a13cde7a2fa5fb238fb3a",
+    "content-hash": "5bb836e4d66cd1bb34ed91f72080d8ba",
     "packages": [
         {
             "name": "brick/math",
@@ -433,38 +433,6 @@
                 }
             ],
             "time": "2023-08-10T19:36:49+00:00"
-        },
-        {
-            "name": "edenlife/superban",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "packages/edenlife/superban",
-                "reference": "432800ae8b6b2ffb22efbcefb37b4f1106d4b342"
-            },
-            "require": {
-                "illuminate/support": "^10",
-                "php": "^7.3|^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EdenLife\\Superban\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Precious Ani",
-                    "email": "anipreciousebuka@mail.com"
-                }
-            ],
-            "description": "A Laravel package for rate limiting and banning clients",
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "egulias/email-validator",

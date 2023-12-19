@@ -1,23 +1,29 @@
 {
     "name": "edenlife/superban",
-    "description": "A Laravel package for rate limiting and banning clients",
+    "description": "Description of your package",
     "type": "library",
-    "license": "MIT",
+    "keywords": ["laravel", "package"],
     "authors": [
         {
             "name": "Precious Ani",
-            "email": "anipreciousebuka@mail.com"
+            "email": "anipreciousebuka@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/support": "^10"
+        "php": "^8.1"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "EdenLife\\Superban\\": "src/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EdenLife\\Superban\\SuperbanServiceProvider"
+            ]
+        }
+    }
 }
