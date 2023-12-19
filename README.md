@@ -55,5 +55,5 @@ Thank you for considering contributing to the Superban package! Feel free to ope
 
 ## Security
 
-If you discover any security-related issues, please email[anipreciousebuka@gmail.com](anipreciousebuka@gmail.com).
+If you discover any security-related issues, please email: [anipreciousebuka@gmail.com](anipreciousebuka@gmail.com).
 
