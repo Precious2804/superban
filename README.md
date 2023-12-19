@@ -14,7 +14,7 @@ The Superban Laravel Package provides rate limiting and banning features for API
 To install the package via composer, run:
 
 ```bash
-composer require eden-life/superban
+composer require edenlife/superban
 ```
 
 ## Configuration
